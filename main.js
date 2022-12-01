@@ -24,3 +24,5 @@ const team = {
         this._players.push(player);
     }
   };
+  
+  team.addPlayer('Bugs', 'Bunny', 76);
