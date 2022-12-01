@@ -1,1 +1,4 @@
-const team = {};
+const team = {
+    _players: [],
+    _games: []
+  };
