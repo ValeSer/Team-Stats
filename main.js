@@ -4,5 +4,9 @@ const team = {
       {firstName: 'Bob', lastname: 'Sloan', age: 38},
       {firstName: 'Tom', lastname: 'Thor', age: 32}
     ],
-    _games: []
+    _games: [
+     {opponent: 'Carla', teamPoints: 0, opponentPoints: 0},
+     {opponent: 'Laura', teamPoints: 0, opponentPoints: 0},
+     {opponent: 'Sarah', teamPoints: 0, opponentPoints: 0}
+    ]
   };
