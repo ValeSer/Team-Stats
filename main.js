@@ -8,5 +8,8 @@ const team = {
      {opponent: 'Carla', teamPoints: 0, opponentPoints: 0},
      {opponent: 'Laura', teamPoints: 0, opponentPoints: 0},
      {opponent: 'Sarah', teamPoints: 0, opponentPoints: 0}
-    ]
+    ],
+    get players() {
+        return this._players;
+    }
   };
