@@ -11,5 +11,8 @@ const team = {
     ],
     get players() {
         return this._players;
+    },
+    get games() {
+        return this._games;
     }
   };
